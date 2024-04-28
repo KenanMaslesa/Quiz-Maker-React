@@ -1,7 +1,7 @@
 # ReactQuizMaker - React + TypeScript + MUI
 
-Run `npm run start` for a dev server.
-
+1. `npm install`
+2. `npm run start`
 
 ## SCREENSHOTS
 ![image](https://github.com/KenanMaslesa/Quiz-Maker-React/assets/55869934/4fb49ddb-2915-4e7f-9cef-8f98fa0f9bb5)
