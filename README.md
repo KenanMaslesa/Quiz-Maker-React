@@ -3,7 +3,6 @@
 1. `npm install`
 2. `npm run start`
 
-## SCREENSHOTS
 ![image](https://github.com/KenanMaslesa/Quiz-Maker-React/assets/55869934/4fb49ddb-2915-4e7f-9cef-8f98fa0f9bb5)
 
 ![image](https://github.com/KenanMaslesa/Quiz-Maker-React/assets/55869934/9effe667-c945-49d1-a2f8-7b370dfd73fd)
