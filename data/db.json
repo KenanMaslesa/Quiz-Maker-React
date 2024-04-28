@@ -1,0 +1,154 @@
+{
+  "quizzes": [
+    {
+      "id": "1",
+      "name": "React Quiz",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the purpose of the `useState` hook in React?",
+          "answer": "The `useState` hook is used to create state variables in functional components. It allows you to manage local state and re-render the component when the state changes."
+        },
+        {
+          "id": 2,
+          "question": "What is JSX?",
+          "answer": "JSX stands for JavaScript XML. It's a syntax extension for JavaScript that allows you to write HTML-like code within React components, making it easier to describe the component's structure."
+        },
+        {
+          "id": 3,
+          "question": "What is a component in React?",
+          "answer": "A component in React is a reusable and self-contained piece of UI. Components can be functional or class-based, and they can accept props, manage state, and render JSX."
+        },
+        {
+          "id": 4,
+          "question": "How do you pass data from a parent component to a child component in React?",
+          "answer": "Data is passed from a parent component to a child component through props. Props are read-only and cannot be modified by the child component."
+        },
+        {
+          "id": 5,
+          "question": "What is the `useEffect` hook used for in React?",
+          "answer": "The `useEffect` hook is used to perform side effects in functional components. Common uses include fetching data, updating the DOM, or setting up event listeners. It can also clean up resources when the component is unmounted."
+        },
+        {
+          "id": 6,
+          "question": "What is a 'key' in React, and why is it important?",
+          "answer": "A 'key' is a unique identifier used in lists to help React efficiently re-render components. Keys allow React to identify which items have changed, been added, or removed, reducing unnecessary re-rendering."
+        },
+        {
+          "id": 7,
+          "question": "What are React Fragments, and when should you use them?",
+          "answer": "React Fragments allow you to group multiple elements without adding extra nodes to the DOM. They are useful when you need to return multiple elements from a component without creating additional wrappers like `<div>`."
+        },
+        {
+          "id": 8,
+          "question": "What is the `context` in React, and how is it used?",
+          "answer": "Context in React provides a way to share data across the component tree without passing props manually at every level. It is useful for managing global state, like user authentication, themes, or language settings."
+        },
+        {
+          "id": 9,
+          "question": "What are React Portals, and when would you use them?",
+          "answer": "React Portals allow you to render a component's children into a DOM node outside of the component's parent DOM hierarchy. They are commonly used for modals, popups, or other components that need to break out of the usual DOM structure."
+        },
+        {
+          "id": 10,
+          "question": "What is the `useReducer` hook, and how does it differ from `useState`?",
+          "answer": "The `useReducer` hook is an alternative to `useState` that is useful for managing complex state logic. It follows the Redux pattern, using a reducer function to handle state transitions based on actions. It's preferred when you have complex state logic with multiple transitions or interdependent state variables."
+        }
+      ]
+    },
+    {
+      "id": "1714216077007",
+      "name": "Test Quiz",
+      "questions": [
+        {
+          "id": "2",
+          "question": "What is JSX?",
+          "answer": "JSX stands for JavaScript XML. It's a syntax extension for JavaScript that allows you to write HTML-like code within React components, making it easier to describe the component's structure."
+        },
+        {
+          "id": "3",
+          "question": "What is a component in React?",
+          "answer": "A component in React is a reusable and self-contained piece of UI. Components can be functional or class-based, and they can accept props, manage state, and render JSX."
+        },
+        {
+          "id": "4",
+          "question": "How do you pass data from a parent component to a child component in React?",
+          "answer": "Data is passed from a parent component to a child component through props. Props are read-only and cannot be modified by the child component."
+        }
+      ]
+    },
+    {
+      "id": "171421607705656",
+      "name": "Keno Kviz",
+      "questions": [
+        {
+          "id": "1",
+          "question": "What is the purpose of the `useState` hook in React?",
+          "answer": "The `useState` hook is used to create state variables in functional components. It allows you to manage local state and re-render the component when the state changes."
+        },
+        {
+          "id": "2",
+          "question": "What is JSX?",
+          "answer": "JSX stands for JavaScript XML. It's a syntax extension for JavaScript that allows you to write HTML-like code within React components, making it easier to describe the component's structure."
+        },
+        {
+          "id": "3",
+          "question": "What is a component in React?",
+          "answer": "A component in React is a reusable and self-contained piece of UI. Components can be functional or class-based, and they can accept props, manage state, and render JSX."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the purpose of the `useState` hook in React?",
+      "answer": "The `useState` hook is used to create state variables in functional components. It allows you to manage local state and re-render the component when the state changes."
+    },
+    {
+      "id": "2",
+      "question": "What is JSX?",
+      "answer": "JSX stands for JavaScript XML. It's a syntax extension for JavaScript that allows you to write HTML-like code within React components, making it easier to describe the component's structure."
+    },
+    {
+      "id": "3",
+      "question": "What is a component in React?",
+      "answer": "A component in React is a reusable and self-contained piece of UI. Components can be functional or class-based, and they can accept props, manage state, and render JSX."
+    },
+    {
+      "id": "4",
+      "question": "How do you pass data from a parent component to a child component in React?",
+      "answer": "Data is passed from a parent component to a child component through props. Props are read-only and cannot be modified by the child component."
+    },
+    {
+      "id": "5",
+      "question": "What is the `useEffect` hook used for in React?",
+      "answer": "The `useEffect` hook is used to perform side effects in functional components. Common uses include fetching data, updating the DOM, or setting up event listeners. It can also clean up resources when the component is unmounted."
+    },
+    {
+      "id": "6",
+      "question": "What is a 'key' in React, and why is it important?",
+      "answer": "A 'key' is a unique identifier used in lists to help React efficiently re-render components. Keys allow React to identify which items have changed, been added, or removed, reducing unnecessary re-rendering."
+    },
+    {
+      "id": "7",
+      "question": "What are React Fragments, and when should you use them?",
+      "answer": "React Fragments allow you to group multiple elements without adding extra nodes to the DOM. They are useful when you need to return multiple elements from a component without creating additional wrappers like `<div>`."
+    },
+    {
+      "id": "8",
+      "question": "What is the `context` in React, and how is it used?",
+      "answer": "Context in React provides a way to share data across the component tree without passing props manually at every level. It is useful for managing global state, like user authentication, themes, or language settings."
+    },
+    {
+      "id": "9",
+      "question": "What are React Portals, and when would you use them?",
+      "answer": "React Portals allow you to render a component's children into a DOM node outside of the component's parent DOM hierarchy. They are commonly used for modals, popups, or other components that need to break out of the usual DOM structure."
+    },
+    {
+      "id": "10",
+      "question": "What is the `useReducer` hook, and how does it differ from `useState`?",
+      "answer": "The `useReducer` hook is an alternative to `useState` that is useful for managing complex state logic. It follows the Redux pattern, using a reducer function to handle state transitions based on actions. It's preferred when you have complex state logic with multiple transitions or interdependent state variables."
+    }
+  ]
+}
